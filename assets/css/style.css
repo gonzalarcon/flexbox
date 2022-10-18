@@ -1,0 +1,110 @@
+body{
+    font-family: 'Roboto', 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid grey;
+    height:max-content;
+
+}
+
+.img-user{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-user img{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+
+.menu_usuario{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+}
+
+.menu .menu_usuario{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.icons{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    padding-inline: 5px;
+}
+
+.status{
+    color: grey;
+    font-size: smaller;
+}
+
+.boton button{
+    display: flex;
+    background-color: #A491D2;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    text-orientation: upright;
+    align-items: center;
+}
+
+.boton{
+    height: 100px;
+    display: flex;
+    text-align: center;
+}
+
+
+.contactos .menu_usuario{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.contactos .perfil{
+    display: flex;
+    flex-direction: column;
+    }
+
+.main{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+}
+
+.imagen img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
